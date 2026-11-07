@@ -1,0 +1,6 @@
+{"direction":"LR","stages":[
+ {"name":"Data","color":"blue","boxes":["3,571 inorganic crystals\n(CIF + exp. bandgap)","Simulated XRD\n(Cu Kα1, 5–90°, 0.05°)","Stratified split\n2,499 train / 1,072 test"]},
+ {"name":"Nanocrystal simulation","color":"teal","boxes":["Scherrer width\nβ = Kλ / (L cos θ)","Pseudo-Voigt kernel\n(η = 0.5)","L = 100 → 3 nm\n+ bulk reference"]},
+ {"name":"Training regimes","color":"orange","boxes":["Bulk-trained","Size-augmented\n(16 sizes, 3–100 nm)","Size-matched\n(upper bound)"]},
+ {"name":"Models","color":"purple","boxes":["1D-CNN\n(4 conv blocks)","RF on profile\n(850 bins)","RF on peak list\n(46 descriptors)"]},
+ {"name":"Tasks","color":"green","boxes":["A: crystal system\n(7 classes)","B: bandgap of\n1,467 semiconductors"]}]}

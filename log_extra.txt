@@ -1,0 +1,26 @@
+curves bulk 150 122
+curves aug 115 167
+curves finished in 301 s
+ablation Full (size-aug CNN) 0 115
+ablation Full (size-aug CNN) 1 150
+ablation Full (size-aug CNN) 2 132
+ablation No peak-shift jitter 0 116
+ablation No peak-shift jitter 1 150
+ablation No peak-shift jitter 2 146
+ablation No label smoothing 0 116
+ablation No label smoothing 1 150
+ablation No label smoothing 2 128
+ablation No class weighting 0 131
+ablation No class weighting 1 150
+ablation No class weighting 2 150
+ablation Sizes 10-100 nm only 0 132
+ablation Sizes 10-100 nm only 1 150
+ablation Sizes 10-100 nm only 2 141
+ablation finished in 2881 s
+lcurve 0.25 0
+lcurve 0.25 1
+lcurve 0.25 2
+lcurve 0.5 0
+lcurve 0.5 1
+lcurve 0.5 2
+lcurve finished in 390 s

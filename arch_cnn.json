@@ -1,0 +1,6 @@
+{"direction":"LR","stages":[
+ {"name":"Input","color":"blue","boxes":["Pattern x\n1 × 1701","Random size L\n+ ±0.2° shift\n(training only)"]},
+ {"name":"Conv block 1","color":"teal","boxes":["Conv1d 16, k=15, s=2","BN + ReLU","MaxPool 2"]},
+ {"name":"Conv blocks 2–4","color":"teal","boxes":["Conv1d 32, k=9","Conv1d 64, k=7","Conv1d 64, k=5","BN, ReLU, MaxPool\nafter each conv"]},
+ {"name":"Pooling","color":"orange","boxes":["Global mean\n(64)","Global max\n(64)","Concatenate\n(128)"]},
+ {"name":"Head","color":"green","boxes":["FC 128→64 + ReLU","Dropout 0.3","FC 64→7\nsoftmax"]}]}

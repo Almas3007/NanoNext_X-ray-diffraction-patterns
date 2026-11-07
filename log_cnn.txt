@@ -1,0 +1,32 @@
+cs_cnn bulk 0 150 181
+cs_cnn aug 0 115 157
+cs_cnn matched 100 0 112
+cs_cnn matched 50 0 125
+cs_cnn matched 30 0 92
+cs_cnn matched 20 0 119
+cs_cnn matched 10 0 94
+cs_cnn matched 5 0 105
+cs_cnn matched 3 0 123
+cs_cnn bulk 1 150 126
+cs_cnn aug 1 150 217
+cs_cnn matched 100 1 114
+cs_cnn matched 50 1 119
+cs_cnn matched 30 1 93
+cs_cnn matched 20 1 119
+cs_cnn matched 10 1 120
+cs_cnn matched 5 1 119
+cs_cnn matched 3 1 119
+cs_cnn bulk 2 126 101
+cs_cnn aug 2 132 194
+cs_cnn matched 100 2 127
+cs_cnn matched 50 2 125
+cs_cnn matched 30 2 123
+cs_cnn matched 20 2 125
+cs_cnn matched 10 2 122
+cs_cnn matched 5 2 125
+cs_cnn matched 3 2 70
+cs_cnn finished in 3369 s
+profile seed 0
+profile seed 1
+profile seed 2
+profile finished in 575 s

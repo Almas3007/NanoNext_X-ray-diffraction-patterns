@@ -1,0 +1,4 @@
+cs_rf seed 0
+cs_rf seed 1
+cs_rf seed 2
+cs_rf finished in 147 s
